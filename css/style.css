@@ -33,19 +33,30 @@ footer {
 }
 
 nav {
-    float: left;
-    max-width: 160px;
+    float: top;
+    /*max-height: 160px;*/
     margin: 0;
-    padding: 1em;
+    padding: 0;
 }
 
 nav ul {
+	display: flex;
+	flex-direction:row;
+	background-color: gray;
     list-style-type: none;
-    padding: 0;
+	margin:0;
+	padding:0;
 }
-   
+  
 nav ul a {
     text-decoration: none;
+}
+nav ul li{
+	padding:15px;
+}
+
+nav ul li:hover {
+	background-color: blue;
 }
 
 article {
