@@ -42,7 +42,7 @@ nav {
 nav ul {
 	display: flex;
 	flex-direction:row;
-	background-color: gray;
+	background-color: yellow;
     list-style-type: none;
 	margin:0;
 	padding:0;
